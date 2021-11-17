@@ -161,10 +161,23 @@ header {
 /* ----------------- MAIN HERO ----------------- */
 
 .hero-section {
-  background-color: var(--brand-background-color);
+  /* background-color: var(--brand-background-color); */
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1600px;
   text-align: center;
+  background-color: rgba(47, 48, 58, 0.4);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      transparent
+    ),
+    url(../images/head.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -206,6 +219,32 @@ header {
 
 .features-item {
   width: 270px;
+}
+
+.features-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.feature-icon-one::before {
+  background-image: url(../images/antenna.svg);
+}
+
+.feature-icon-two::before {
+  background-image: url(../images/clock.svg);
+}
+
+.feature-icon-three::before {
+  background-image: url(../images/diagram.svg);
+}
+
+.feature-icon-four::before {
+  background-image: url(../images/astronaut.svg);
 }
 
 .features-item + .features-item {
