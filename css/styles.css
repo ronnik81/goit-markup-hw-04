@@ -175,6 +175,7 @@ header {
     url(../images/head.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-left: auto;
   margin-right: auto;
@@ -207,7 +208,7 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-/* ----------------- MAIN FEATURES ----------------- */
+/* ----------------- FEATURES ----------------- */
 
 .features-section {
   padding: 94px 0;
@@ -272,7 +273,7 @@ header {
   color: var(--brand-color-text);
 }
 
-/* ----------------- MAIN SERVISES ----------------- */
+/* ----------------- SERVISES ----------------- */
 
 .services-title {
   font-size: 36px;
@@ -293,7 +294,7 @@ header {
   margin-right: 30px;
 }
 
-/* ----------------- MAIN TEAM ----------------- */
+/* ----------------- TEAM ----------------- */
 
 .team-section {
   background-color: #f5f4fa;
@@ -345,6 +346,40 @@ header {
 
 .team-list-card {
   padding: 30px 0;
+}
+
+/* ----------------- CLIENTS ---------------- */
+
+.clients-section {
+  display: block;
+  padding: 94px 0;
+}
+
+.clients-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--brand-color-main);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+}
+
+.clients-list-item + .clients-list-item {
+  margin-left: 30px;
+}
+
+.clients-list-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
 }
 
 /* ----------------- FOOTER ----------------- */
