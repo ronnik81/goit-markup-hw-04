@@ -362,7 +362,7 @@ header {
 
 .team-social-link:hover,
 .team-social-link:focus {
-  background-color: #2196f3;
+  background-color: var(--brand-color-focus);
   border-radius: 50%;
 }
 
