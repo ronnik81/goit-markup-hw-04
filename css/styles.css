@@ -222,39 +222,18 @@ header {
   width: 270px;
 }
 
-.features-item::before {
-  display: block;
-  content: "";
+.feature-icon {
+  width: 270px;
   height: 120px;
   background-color: #f5f4fa;
-  background-repeat: no-repeat;
-  background-position: center;
+  border-radius: 4px;
+  padding: 25px 100px;
   margin-bottom: 30px;
-}
-
-.feature-icon-one::before {
-  background-image: url(../images/antenna.svg);
-}
-
-.feature-icon-two::before {
-  background-image: url(../images/clock.svg);
-}
-
-.feature-icon-three::before {
-  background-image: url(../images/diagram.svg);
-}
-
-.feature-icon-four::before {
-  background-image: url(../images/astronaut.svg);
 }
 
 .features-item + .features-item {
   margin-left: 30px;
 }
-
-/* .features-item:not(:last-child) {
-  margin-right: 30px;
-} */
 
 .features-title {
   font-size: 14px;
