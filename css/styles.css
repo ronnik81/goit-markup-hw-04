@@ -354,7 +354,6 @@ header {
 .team-social-link {
   width: 100%;
   height: 100%;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -407,6 +406,28 @@ header {
   box-sizing: border-box;
   border-radius: 4px;
   display: flex;
+}
+
+.clients-list-item:hover,
+.clients-list-item:focus {
+  border-color: var(--brand-color-focus);
+}
+
+.clients-list-item:hover .clients-icon,
+.clients-list-item:focus .clients-icon {
+  fill: var(--brand-color-focus);
+}
+
+.clients-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-icon {
+  fill: #afb1b8;
 }
 
 /* ----------------- FOOTER ----------------- */
