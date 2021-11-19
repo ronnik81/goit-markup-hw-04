@@ -122,10 +122,6 @@ header {
   color: var(--brand-color-focus);
 }
 
-/* .nav-item:not(:last-child) {
-  margin-right: 50px;
-} */
-
 .nav-list .nav-item + .nav-item {
   margin-left: 40px;
 }
@@ -170,7 +166,6 @@ header {
 /* ----------------- MAIN HERO ----------------- */
 
 .hero-section {
-  /* background-color: var(--brand-background-color); */
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1600px;
